@@ -1,4 +1,4 @@
-# NvChad but with a custom folder for my own preferences and shortcuts
+# NvChad but custom
 
 Original repo: https://github.com/NvChad/NvChad
 
