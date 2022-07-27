@@ -10,3 +10,4 @@
 1. `:PackerInstall`
 2. `:PackerSync`
 3. `:Mason`
+4. `:help key-notation`
