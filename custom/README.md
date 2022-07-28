@@ -5,6 +5,10 @@
 3. `ln -s ~/.config/nvims/nvchad-custom/custom ~/.config/nvims/nvchad/lua`
 4. `ln -s ~/.config/nvims/nvchad ~/.config/nvim`
 
+### Use
+
+1. type `nvim` in a folder you want to modify
+
 ### Common Commands
 
 1. `:PackerInstall` <- Must run
