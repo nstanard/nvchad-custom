@@ -9,6 +9,11 @@
 
 1. type `nvim` in a folder you want to modify
 
+### Common Shortcuts/Mappings
+
+1. `<space>th` - change theme
+2. `<space>q` - exit
+
 ### Common Commands
 
 1. `:PackerInstall` <- Must run
@@ -16,3 +21,4 @@
 3. `:Mason`
 3. `:MasonInstallAll` <- Must run
 4. `:help key-notation`
+
