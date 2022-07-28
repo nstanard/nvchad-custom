@@ -12,7 +12,9 @@
 ### Common Shortcuts/Mappings
 
 1. `<space>th` - change theme
-2. `<space>q` - exit
+2. `<space>ff` - find file
+3. `<space>fw` - grep for string
+4. `<space>q` - exit
 
 ### Common Commands
 
