@@ -2,18 +2,22 @@ local M = {}
 
 M.plugins = {
 	user = {
-		-- ["neovim/nvim-lspconfig"] = {
-		-- 	config = function()
-		-- 		require("plugins.configs.lspconfig")
-		-- 		require("custom.plugins.lspconfig")
-		-- 	end,
-		-- },
-		-- ["jose-elias-alvarez/null-ls.nvim"] = {
-		-- 	after = "nvim-lspconfig",
-		-- 	config = function()
-		-- 		require("custom.plugins.null-ls").setup()
-		-- 	end,
-		-- },
+		["neovim/nvim-lspconfig"] = {
+			opt = true,
+			setup = function()
+			  require("core.lazy_load").on_file_open "nvim-lspconfig"
+			end,
+			config = function()
+			  require "plugins.configs.lspconfig"
+			  require "custom.plugins.lspconfig"
+			end,
+		},
+		["jose-elias-alvarez/null-ls.nvim"] = {
+			after = "nvim-lspconfig",
+			config = function()
+				require("custom.plugins.null-ls").setup()
+			end,
+		},
 	},
 
 	override = {
