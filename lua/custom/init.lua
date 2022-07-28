@@ -1,1 +1,1 @@
-require "custom.mappings"
+vim.opt.mouse = "a"
