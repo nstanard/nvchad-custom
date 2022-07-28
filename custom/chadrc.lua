@@ -61,25 +61,13 @@ M.plugins = {
 				"stylua",
 
 				-- web dev
-				"ansible-language-server",
-				"bash-language-server",
-				"clangd",
-				"cmake-language-server",
 				"css-lsp",
-				"cssmodules-language-server",
-				"dockerfile-language-server",
 				"deno",
 				"emmet-ls",
 				"eslint-lsp",
-				"graphql-language-service-cli",
 				"html-lsp",
-				"jdtls",
 				"json-lsp",
-				"marksman",
-				"pyright",
-				"svelte-language-server",
 				"typescript-language-server",
-				"vue-language-server",
 				"yaml-language-server",
 
 				-- shell
@@ -97,7 +85,7 @@ M.plugins = {
 	status = { colorizer = true },
 }
 
-M.ui = { theme = "chocolate" }
+M.ui = { theme = "tomorrow_night" }
 
 M.mappings = require("custom.mappings")
 
