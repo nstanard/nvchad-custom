@@ -1,3 +1,12 @@
-local M = {}
+local on_attach = require("plugins.configs.lspconfig").on_attach
+local capabilities = require("plugins.configs.lspconfig").capabilities
 
-return M
+local lspconfig = require "lspconfig"
+local servers = { "html", "cssls" }
+
+for _, lsp in ipairs(servers) do
+  lspconfig[lsp].setup {
+    on_attach = on_attach,
+    capabilities = capabilities,
+  }
+end

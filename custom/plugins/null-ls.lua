@@ -11,8 +11,7 @@ local sources = {
 	-- webdev stuff
 	b.formatting.deno_fmt,
 	b.formatting.prettier,
-	b.formatting.eslint,
-
+	
 	-- Lua
 	b.formatting.stylua,
 

@@ -2,18 +2,18 @@ local M = {}
 
 M.plugins = {
 	user = {
-		["neovim/nvim-lspconfig"] = {
-			config = function()
-				require("plugins.configs.lspconfig")
-				require("custom.plugins.lspconfig")
-			end,
-		},
-		["jose-elias-alvarez/null-ls.nvim"] = {
-			after = "nvim-lspconfig",
-			config = function()
-				require("custom.plugins.null-ls").setup()
-			end,
-		},
+		-- ["neovim/nvim-lspconfig"] = {
+		-- 	config = function()
+		-- 		require("plugins.configs.lspconfig")
+		-- 		require("custom.plugins.lspconfig")
+		-- 	end,
+		-- },
+		-- ["jose-elias-alvarez/null-ls.nvim"] = {
+		-- 	after = "nvim-lspconfig",
+		-- 	config = function()
+		-- 		require("custom.plugins.null-ls").setup()
+		-- 	end,
+		-- },
 	},
 
 	override = {
@@ -57,7 +57,6 @@ M.plugins = {
 				"stylua",
 
 				-- web dev
-				"angular-language-server",
 				"ansible-language-server",
 				"bash-language-server",
 				"clangd",
@@ -68,8 +67,6 @@ M.plugins = {
 				"deno",
 				"emmet-ls",
 				"eslint-lsp",
-				"golangci-lint",
-				"gopls",
 				"graphql-language-service-cli",
 				"html-lsp",
 				"jdtls",
@@ -82,7 +79,6 @@ M.plugins = {
 				"yaml-language-server",
 
 				-- shell
-				"shfmt",
 				"shellcheck",
 			},
 		},
@@ -97,7 +93,7 @@ M.plugins = {
 	status = { colorizer = true },
 }
 
-M.ui = { theme = "tomorrow_night" }
+M.ui = { theme = "chocolate" }
 
 M.mappings = require("custom.mappings")
 

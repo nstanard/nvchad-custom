@@ -7,8 +7,8 @@
 
 ### Common Commands
 
-1. `:PackerInstall`
+1. `:PackerInstall` <- Must run
 2. `:PackerSync`
 3. `:Mason`
+3. `:MasonInstallAll` <- Must run
 4. `:help key-notation`
-
