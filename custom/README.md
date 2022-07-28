@@ -4,6 +4,8 @@
 2. `git clone git@github.com:nstanard/nvchad-custom.git ~/.config/nvims/nvchad-custom`
 3. `ln -s ~/.config/nvims/nvchad-custom/custom ~/.config/nvims/nvchad/lua`
 4. `ln -s ~/.config/nvims/nvchad ~/.config/nvim`
+5. `nvim` to open neovim (NvChad)
+6. `:MasonInstallAll` while in neovim
 
 ### Use
 
