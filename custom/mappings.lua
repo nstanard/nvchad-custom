@@ -9,12 +9,6 @@ M.general = {
 
 M.nvterm = {
   t = {
-    ["<leader>ln"] = {
-      function()
-        require("nvterm.terminal").send("npm run lint:mf")
-      end,
-      "   lint fix modified files",
-    },
   }
 }
 
