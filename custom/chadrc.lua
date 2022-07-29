@@ -26,7 +26,6 @@ M.plugins = {
       end,
     },
 	},
-  -- ["neoclide/npm.nvim"] = {}
 
 	override = {
 		["nvim-treesitter/nvim-treesitter"] = {

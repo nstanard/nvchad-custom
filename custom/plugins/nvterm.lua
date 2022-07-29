@@ -1,5 +1,5 @@
 local mappings = {
-  { 'n', '<C-i>', function () require("nvterm.terminal").send("npm install", "float") end },
+  { 'n', '<leader>[', function () require("nvterm.terminal").send("npm install", "float") end },
 }
 
 local opts = { noremap = true, silent = true }
