@@ -78,7 +78,7 @@ M.plugins = {
 	status = { colorizer = true },
 }
 
-M.ui = { theme = "tomorrow_night" }
+M.ui = { theme = "chocolate" }
 
 M.mappings = require("custom.mappings")
 
