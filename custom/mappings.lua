@@ -16,6 +16,13 @@ M.general = {
 			end,
 			"   npm install",
 		},
+		["<leader>ml"] = {
+			function()
+				require("nvterm.terminal").send("npm run lint:m", "float")
+			end,
+			"   npm run lint:m",
+		},
+
 	},
 }
 
