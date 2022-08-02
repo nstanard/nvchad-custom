@@ -18,13 +18,6 @@ M.plugins = {
 				require("custom.plugins.null-ls")
 			end,
 		},
-    ["NvChad/nvterm"] = {
-      module = "nvterm",
-      config = function()
-        require "plugins.configs.nvterm"
-        require "custom.plugins.nvterm"
-      end,
-    },
 	},
 
 	override = {
