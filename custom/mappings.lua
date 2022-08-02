@@ -8,13 +8,13 @@ M.general = {
 			function()
 				require("nvterm.terminal").send("npm run test", "float")
 			end,
-			"   run tests",
+			"   npm run test",
 		},
 		["<leader>mi"] = {
 			function()
 				require("nvterm.terminal").send("npm install", "float")
 			end,
-			"   run tests",
+			"   npm install",
 		},
 	},
 }
