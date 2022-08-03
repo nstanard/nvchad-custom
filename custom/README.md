@@ -20,9 +20,10 @@
 
 ### Common Commands
 
-1. `:PackerInstall` <- Must run
+1. `:PackerInstall`
 2. `:PackerSync`
 3. `:Mason`
-3. `:MasonInstallAll` <- Must run
-4. `:help key-notation`
+4. `:MasonInstallAll`
+5. `:help key-notation`
+6. `:help nvim-tree-mappings`
 
